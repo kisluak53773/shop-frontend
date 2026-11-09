@@ -30,7 +30,9 @@ export const LoginForm: FC<Props> = ({ error }) => {
         required
       />
       {error && <p className="text-sm text-red-600">{error}</p>}
-      <Button type="submit">Sign in</Button>
+      <Button type="submit" fullWidth>
+        Sign in
+      </Button>
       <p className="text-center text-sm">
         No account?{" "}
         <Link to="/register" className="underline">

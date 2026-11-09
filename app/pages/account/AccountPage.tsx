@@ -14,7 +14,9 @@ export const AccountPage: FC = () => {
       <p className="text-sm text-gray-600">{user.email}</p>
       <p className="text-sm text-gray-600">Role: {user.role}</p>
       <Form method="post" action="/logout">
-        <Button type="submit">Sign out</Button>
+        <Button type="submit" variant="outline" fullWidth>
+          Sign out
+        </Button>
       </Form>
     </div>
   );

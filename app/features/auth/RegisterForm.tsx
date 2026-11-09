@@ -35,7 +35,9 @@ export const RegisterForm: FC<Props> = ({ error }) => {
         required
       />
       {error && <p className="text-sm text-red-600">{error}</p>}
-      <Button type="submit">Create account</Button>
+      <Button type="submit" fullWidth>
+        Create account
+      </Button>
       <p className="text-center text-sm">
         Already have an account?{" "}
         <Link to="/login" className="underline">
