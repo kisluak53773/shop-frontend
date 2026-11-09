@@ -1,5 +1,6 @@
 export {
   RegisterPage as default,
-  registerAction as action,
   meta,
 } from "~/pages/register";
+
+export { registerAction as action } from "~/pages/register/action.server";

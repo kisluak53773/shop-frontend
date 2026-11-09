@@ -1,5 +1,6 @@
 export {
   LoginPage as default,
-  loginAction as action,
   meta,
 } from "~/pages/login";
+
+export { loginAction as action } from "~/pages/login/action.server";
